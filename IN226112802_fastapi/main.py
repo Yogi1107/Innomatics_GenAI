@@ -16,7 +16,7 @@ products = [
 ]
 
 
-# Q1 - Get all products
+# Q1 -Get all products
 @app.get("/products")
 def get_products():
     return {
