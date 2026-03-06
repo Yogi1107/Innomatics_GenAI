@@ -97,7 +97,7 @@ def search_products(keyword: str):
     }
 
 
-# ⭐ Bonus - Best Deal & Premium Pick
+#  Best Deal & Premium Pick
 @app.get("/products/deals")
 def product_deals():
 
